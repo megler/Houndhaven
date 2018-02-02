@@ -1,0 +1,223 @@
+
+/* Nav  and Link Styling */
+.nav-link {
+    color: #061862;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover {
+    color: blue;
+}
+
+.nav {
+    padding-bottom: 1.2rem;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #7D1935;
+}
+
+/* collapse footer menu on mobile */
+
+@media (min-width: 576px) {
+   .collapse {
+       display: none !important;
+   }
+}
+
+/* End Nav and Link Styling */
+
+/* Begin Footer Styling */
+
+.footer {
+    margin-top: 25px;
+}
+
+.footerNav {
+    margin: 0 auto;
+}
+
+/* End Footer Styling */
+
+ul {
+    list-style: none;
+}
+
+.quad-col {
+    padding: 1.2rem 0;
+
+}
+
+.quickLink {
+    font-size: 1.1rem
+}
+/* Adoptable Dog Page Styling */
+
+.adoptable {
+    margin-bottom: 1rem;
+}
+
+.adopt-text {
+    padding-top: 1rem;
+}
+/* END Adoptable Dog Page Styling */
+
+/* home page styling */
+
+.adopt-btn {
+    margin-top: 1rem;
+}
+
+.vol-img > img {
+    border-radius: 50%;
+}
+
+.donate-img > img {
+    border-radius: 50%;
+}
+
+.card-header {
+    font-size: 2rem;
+}
+
+.info {
+    padding: 1.5rem 3rem;
+    font-size: 1.3rem;
+}
+
+.grid-item { 
+    width: 240px;
+}
+
+.grid-item--width2 {
+    width: 400px;
+}
+
+/* font for Oh The places you'll go */
+.seuss {
+    font-family: 'Acme', cursive;
+    color:  #3e329b;
+}
+
+/* end home page styling */
+
+/* Font Awesome Social Media Styling */
+
+.social-section ul li {
+
+    display: inline;
+
+}
+
+.social-section ul li a i {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    padding-top:8px;
+}
+
+.fa-facebook {
+    background:#3b5998;    
+} 
+
+.fa-instagram {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);        
+}
+
+/* End Social Media Styling */
+
+
+/* Begin Inner Page CSS */
+.intro {
+    background: #F5F3EE;
+    padding: 10px 15px;
+}
+
+.paraHead {
+    color: #7D1935;
+}
+
+.introHead {
+    margin-bottom: 25px;
+}
+
+/* End Inner Page CSS */
+
+/* Begin Adoptable Dog Page CSS */
+
+#dogs {
+    background: #C6BEC2;
+    padding: 10px 15px;
+}
+
+.availDogHead {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* end Adoptable Dog Page CSS */
+
+/* Begin Adoptable Dog Page CSS */
+
+.adoptInfo {
+    background: #E8F3F8;
+    padding: 10px 15px;
+}
+
+.adoptForm {    
+    padding: 1rem 2rem;
+    background: #C4DDE6;
+}
+
+.adoptForm input {
+    border: 2px solid #4381B6;
+    margin: 0;
+}
+
+.adoptForm textarea {
+    border: 2px solid #4381B6;
+    margin: 0;
+}
+
+#inputState {
+    border: 2px solid #4381B6;
+    margin: 0;
+}
+
+.adoptForm label {
+    margin: 0;
+}
+
+.adoptForm legend {
+   width: auto;
+    padding: 0 10px;
+    
+}
+
+.adoptForm fieldset {
+    border: 2px solid #608FA1;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+#adoptSubmit {
+    margin-top: 15px;
+}
+/* End Adoptable Dog Page CSS */
+
+/* Begin 404 Page CSS */
+
+#returnHome {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.error {
+    color: red;
+}
+/* End 404 Page CSS */
