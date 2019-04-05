@@ -1,15 +1,15 @@
-## Houndhaven
+# Houndhaven
 A site redesign for a local dog rescue
 
-# Site
+## Site
 
 - Redesign: http://rutledgewebdev.com/portfolio/houndhaven/
 - Current: http://houndhaven.org
 
-# Goals
+## Goals
 The current site is very cluttered, confusing at times, and loads slowly.  The goal of this project was to address those issues through an iterative collaboration with stakeholders.
 
-# What I Did
+## What I Did
 
 This site was an exercise in site redesign from a planning and execution perspective.  During this project, I performed the following:
 
@@ -24,7 +24,7 @@ This site was an exercise in site redesign from a planning and execution perspec
 - Iterated through the inital design process by performing user testing on a working full homepage layout with no color.
 - Continued iteration process through final design signoff.
 
-# The Result
+## The Result
 
 This redesign:
 
@@ -34,10 +34,10 @@ This redesign:
 - Includes design elements deemed important by both internal and external stakeholders.  
 - The site is responsive thanks to Bootstrap.
 
-# What I Learned
+## What I Learned
 
 Collaborating with stakeholders throughout the design process and avoiding the "big reveal" cuts down on end stage surprises and unforeseen major revisions late in the project.  The client feels more involved, the heavy redesign work happens early in the project versus at the end, and the final result is more organic.
 
-# The Future
+## The Future
 
 Future plans are to integrate this design into a WordPress template for use on the actual website.  There are better ways to layout a site than Bootstrap, but that was not the purpose of this exercise.  When the move is made to WordPress, I intend to write a custom template using CSS Grid and Flexbox without the additional overhead of Bootstrap.  Also, styling will be done with RWD 2.0 techniques such as CSS Custom properties, responsive type-sets as well as a pre-processor (SASS) and a custom workflow utilizing NPM.
